@@ -1,0 +1,15 @@
+dependencyResolutionManagement {
+    versionCatalogs {
+        driver {
+            from files('gradle/driver.versions.toml')
+        }
+        chromedriver {
+            from files('gradle/chromedriver')
+        }
+        chromedriver1 {
+            from files('gradle/chromedriver.versions.toml')
+        }
+    }
+}
+rootProject.name = 'Selenium'
+
